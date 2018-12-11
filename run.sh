@@ -7,4 +7,7 @@ python3 -c 'import sys; sys.exit(sys.hexversion < 0x03050000)') || {
 	exit 1; }
 
 cd "$(dirname "$BASH_SOURCE")"
+cd ./musicbot
+python3 custom.py
+cd ../
 python3 run.py
