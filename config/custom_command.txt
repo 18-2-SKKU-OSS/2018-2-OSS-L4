@@ -28,7 +28,7 @@ cmd_setnick = setnick
 cmd_setavatar = setavatar
 cmd_disconnect = disconnect
 cmd_restart = restart
-cmd_shutdown = shutdown
+cmd_shutdown = !종료
 cmd_leaveserver = leaveserver
 
 #dev only
