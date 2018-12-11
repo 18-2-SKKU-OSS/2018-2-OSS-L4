@@ -1,4 +1,4 @@
-cmd_resetplaylist = resetplaylist
+﻿cmd_resetplaylist = resetplaylist
 cmd_help = help
 cmd_blacklist = blacklist
 cmd_id = id
@@ -28,7 +28,7 @@ cmd_setnick = setnick
 cmd_setavatar = setavatar
 cmd_disconnect = disconnect
 cmd_restart = restart
-cmd_shutdown = 종료
+cmd_shutdown = shutdown
 cmd_leaveserver = leaveserver
 
 #dev only

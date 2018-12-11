@@ -21,7 +21,7 @@ ENDLOCAL
 
 
 IF EXIST %SYSTEMROOT%\py.exe (
-    start cmd.exe /k "python update.py & start cmd.exe /k python run.py"
+    start cmd.exe /k "cd ./musicbot & python custom.py & cd ../& start cmd.exe /k python run.py"
     REM CMD /k %SYSTEMROOT%\py.exe -3 update.py 
     REM CMD /k %SYSTEMROOT%\py.exe -3 run.py 
     EXIT
@@ -30,7 +30,7 @@ IF EXIST %SYSTEMROOT%\py.exe (
 python --version > NUL 2>&1
 IF %ERRORLEVEL% NEQ 0 GOTO nopython
 
-start cmd.exe /k "python update.py & start cmd.exe /k python run.py"
+start cmd.exe /k "cd ./musicbot & python custom.py & cd ../& start cmd.exe /k python run.py"
 GOTO end
 
 :nopython
